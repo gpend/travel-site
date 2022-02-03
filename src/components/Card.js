@@ -7,7 +7,7 @@ export default function Card (props){
                     <p>📍 {props.item.location}</p>
                     <h2>{props.item.title}</h2>
                     <p className="attrib">{props.item.photo_attrib}</p>
-                    <h3>{props.item.dates}</h3>
+                    <h3>{props.item.date}</h3>
                 </div>
                 <div className="card--description">
                     <p>{props.item.description}</p>
